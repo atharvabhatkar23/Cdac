@@ -1,0 +1,15 @@
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\bin\Debug\net7.0\labDay2.exe
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\bin\Debug\net7.0\labDay2.deps.json
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\bin\Debug\net7.0\labDay2.runtimeconfig.json
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\bin\Debug\net7.0\labDay2.dll
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\bin\Debug\net7.0\labDay2.pdb
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\obj\Debug\net7.0\labDay2.csproj.AssemblyReference.cache
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\obj\Debug\net7.0\labDay2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\obj\Debug\net7.0\labDay2.AssemblyInfoInputs.cache
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\obj\Debug\net7.0\labDay2.AssemblyInfo.cs
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\obj\Debug\net7.0\labDay2.csproj.CoreCompileInputs.cache
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\obj\Debug\net7.0\labDay2.dll
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\obj\Debug\net7.0\refint\labDay2.dll
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\obj\Debug\net7.0\labDay2.pdb
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\obj\Debug\net7.0\labDay2.genruntimeconfig.cache
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\labDay2\obj\Debug\net7.0\ref\labDay2.dll

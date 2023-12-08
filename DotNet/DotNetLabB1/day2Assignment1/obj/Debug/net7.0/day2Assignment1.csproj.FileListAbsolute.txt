@@ -1,0 +1,15 @@
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\bin\Debug\net7.0\day2Assignment1.exe
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\bin\Debug\net7.0\day2Assignment1.deps.json
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\bin\Debug\net7.0\day2Assignment1.runtimeconfig.json
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\bin\Debug\net7.0\day2Assignment1.dll
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\bin\Debug\net7.0\day2Assignment1.pdb
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\obj\Debug\net7.0\day2Assignment1.csproj.AssemblyReference.cache
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\obj\Debug\net7.0\day2Assignment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\obj\Debug\net7.0\day2Assignment1.AssemblyInfoInputs.cache
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\obj\Debug\net7.0\day2Assignment1.AssemblyInfo.cs
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\obj\Debug\net7.0\day2Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\obj\Debug\net7.0\day2Assignment1.dll
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\obj\Debug\net7.0\refint\day2Assignment1.dll
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\obj\Debug\net7.0\day2Assignment1.pdb
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\obj\Debug\net7.0\day2Assignment1.genruntimeconfig.cache
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\day2Assignment1\obj\Debug\net7.0\ref\day2Assignment1.dll

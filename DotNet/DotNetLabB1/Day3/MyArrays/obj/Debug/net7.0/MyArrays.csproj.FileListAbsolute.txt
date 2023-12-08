@@ -1,0 +1,15 @@
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\bin\Debug\net7.0\MyArrays.exe
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\bin\Debug\net7.0\MyArrays.deps.json
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\bin\Debug\net7.0\MyArrays.runtimeconfig.json
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\bin\Debug\net7.0\MyArrays.dll
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\bin\Debug\net7.0\MyArrays.pdb
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\obj\Debug\net7.0\MyArrays.csproj.AssemblyReference.cache
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\obj\Debug\net7.0\MyArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\obj\Debug\net7.0\MyArrays.AssemblyInfoInputs.cache
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\obj\Debug\net7.0\MyArrays.AssemblyInfo.cs
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\obj\Debug\net7.0\MyArrays.csproj.CoreCompileInputs.cache
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\obj\Debug\net7.0\MyArrays.dll
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\obj\Debug\net7.0\refint\MyArrays.dll
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\obj\Debug\net7.0\MyArrays.pdb
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\obj\Debug\net7.0\MyArrays.genruntimeconfig.cache
+C:\Users\dac.STUDENTSDC\Desktop\DotNetLabB1\Day3\MyArrays\obj\Debug\net7.0\ref\MyArrays.dll
