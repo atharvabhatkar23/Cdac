@@ -1,0 +1,31 @@
+package com.app.dao;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.app.pojos.Employee;
+@Repository
+public class EmpDaoImpl implements EmployeeDao {
+     @Autowired
+	private EntityManager manager;
+	@Override
+	public String addEmployee(Employee emp) {
+		manager.persist(emp);
+		return "Emplyee addded successfully";
+		
+	}
+	@Override
+	public List<Employee> allEmployees() {
+		// TODO Auto-generated method stub
+		List<Employee> empList;
+		String jpql = "select e from Employee e ";
+		empList = manager.createQuery(jpql, Employee.class).getResultList();
+		
+		return 
+	}
+
+}

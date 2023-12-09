@@ -1,0 +1,27 @@
+package com.app.service;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.ModelMap;
+
+import com.app.dao.StudentDao;
+import com.app.dto.StudentDTO;
+import com.app.entities.Student;
+
+public class StudentServiceImpl implements StudentService {
+	@Autowired
+	private StudentDao studDao;
+	//dep: ModelMapper
+	@Autowired
+	private ModelMapper mapper;
+
+	@Override
+	public StudentDTO addStudent(StudentDTO dto) {
+		Student student=mapper.map(dto, Student.class);
+		//entity-->dto
+		
+		return mapper.map(studDao, .save(student),StudentDTO.class);
+	}
+
+	
+}

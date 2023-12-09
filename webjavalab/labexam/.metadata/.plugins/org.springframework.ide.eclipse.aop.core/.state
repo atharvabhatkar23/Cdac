@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="day17_REST2"/>
+<aop-project name="day17_demo"/>
+<aop-project name="AdvanceJavaLabExam"/>
+<aop-project name="day17_lab"/>
+</aop-reference-model>

@@ -1,0 +1,18 @@
+package com.app.dao;
+
+import java.util.List;
+
+import com.app.pojos.Employee;
+
+public interface EmployeeDao
+{
+	
+	public String addEmployee(Employee emp);
+	//iew all employee details in tabular format
+	
+	public  List<Employee> allEmployees();
+	
+	//Accept company name from user and display all employee details belonging to the company
+	
+	public   List<Employee> allEmployeesofCompany(String companyName);
+}

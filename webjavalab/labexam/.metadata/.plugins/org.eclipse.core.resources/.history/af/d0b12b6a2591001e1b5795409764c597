@@ -1,0 +1,14 @@
+package com.app.dao;
+
+import com.app.pojos.Employee;
+
+public interface EmployeeDao
+{
+	
+	public String addEmployee(Employee emp);
+	//iew all employee details in tabular format
+	
+	public String allEmployees();
+	
+	
+}

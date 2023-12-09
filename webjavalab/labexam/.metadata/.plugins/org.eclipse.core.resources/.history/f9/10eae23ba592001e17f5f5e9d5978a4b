@@ -1,0 +1,12 @@
+package com.app.entities;
+
+import java.time.LocalDate;
+
+public class Student extends BaseEntity {
+private String roll;
+private String fname;
+private String lname;
+private String city;
+private String course;
+private LocalDate dob;
+}

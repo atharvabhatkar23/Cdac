@@ -1,0 +1,38 @@
+package pages;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import dao.PlayerDaoImpl;
+
+/**
+ * Servlet implementation class NewPlayer
+ */
+@WebServlet("/add_player_new1")
+public class NewPlayer extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.setContentType("text/html");
+		try(PrintWriter pw = response.getWriter()){
+			
+			
+			HttpSession session = request.getSession();
+			PlayerDaoImpl attribute = (PlayerDaoImpl)session.getAttribute("player_dao");
+			session.getAttribute("team_dao");
+			
+			
+			pw.print("<h1>NEW PAGE</h1>");
+		}
+	}
+
+}

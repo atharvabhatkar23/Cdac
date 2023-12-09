@@ -1,0 +1,33 @@
+package com.app.service;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.app.dao.EmployeeDao;
+
+import com.app.pojos.Employee;
+
+@Service@Transactional
+public class EmpServiceImpl implements EmployeeService {
+
+	@Autowired
+	private EmployeeDao empDao;
+	@Override
+	public String addEmployee(Employee emp) {
+		String addEmp=empDao.addEmployee(emp);
+		return addEmp;
+	}
+	public  List<Employee> allEmployees(){
+		return empDao.allEmployees();
+	}
+
+	public  List<Employee> allEmployeesofCompany(String companyName){
+		empDao.allEmployeesofCompany(companyName);
+	}
+		
+
+}

@@ -1,0 +1,14 @@
+package com.app.service;
+
+import com.app.dao.StudentDao;
+import com.app.entities.Student;
+
+public class StudentServiceImpl implements StudentService {
+private StudentDao studDao;
+	@Override
+	public Student addStudent(Student student) {
+		
+		return studDao(student);
+	}
+
+}

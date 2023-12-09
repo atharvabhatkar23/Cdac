@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\dac.STUDENTSDC\Downloads\spring_boot_template_mvc_day15lab"/>
+			<item value="C:\Users\dac.STUDENTSDC\Desktop\b1Advanced Java\Day 15\day15_data\code\day15_boot_mvc"/>
+			<item value="C:\Users\dac.STUDENTSDC\Desktop\b1Advanced Java\Day 15\day15_data\code\spring_boot_template_mvc"/>
+			<item value="C:\Users\dac.STUDENTSDC\Downloads\CDAC_ACTS_2023_SEP_DAC-main\CDAC_ACTS_2023_SEP_DAC-main\Web_Based_Java\IPL_Day_10_assignment"/>
+			<item value="C:\Users\dac.STUDENTSDC\Desktop\b1Advanced Java\day10_data\code\day10.2"/>
+			<item value="C:\Users\dac.STUDENTSDC\Desktop\b1Advanced Java\web_maven_hibernate"/>
+			<item value="C:\Users\dac.STUDENTSDC\Desktop\b1Advanced Java\webjavalab\day8Assignment_IPLwithHibernate"/>
+			<item value="C:\Users\dac.STUDENTSDC\Desktop\b1Advanced Java\day9-data\code\day9.1"/>
+			<item value="C:\Users\dac.STUDENTSDC\Downloads\day8_lab"/>
+			<item value="C:\Users\dac.STUDENTSDC\Desktop\b1Advanced Java\day8-data\code\test_hibernate"/>
+			<item value="C:\Users\dac.STUDENTSDC\Desktop\b1Advanced Java\day7-data\code\test_hibernate"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\dac.STUDENTSDC\Desktop\b1Advanced Java\webjavalab\day7.2\src\main\java\pojos\User.java"/>
+			<item value="C:\Users\dac.STUDENTSDC\Desktop\b1Advanced Java\webjavalab"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.example.day8labexample"/>
+		</list>
+		<list key="groupId">
+			<item value="com.example"/>
+		</list>
+		<list key="artifactId">
+			<item value="day8labexample"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="529"/>
+		<item key="x" value="720"/>
+		<item key="y" value="76"/>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

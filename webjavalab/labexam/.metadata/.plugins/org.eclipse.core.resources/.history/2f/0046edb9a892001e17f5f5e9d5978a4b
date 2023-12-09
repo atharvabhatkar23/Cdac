@@ -1,0 +1,28 @@
+package com.app.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.app.service.StudentService;
+
+@RestController
+@RequestMapping("/student")
+public class StudentController {
+	@Autowired
+	private StudentService service;
+
+	public StudentController() {
+		System.out.println("in StudentController ctor");
+	}
+
+//add Rest api end point to add student
+	// url:http://host:port/students,method=post
+	// request payload:StudentDTO:no id
+	// resp:success--SC-201,StudentDTO:id
+	@PostMapping("/add")
+	public void addStudent() {
+
+	}
+}

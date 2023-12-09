@@ -1,0 +1,41 @@
+package com.app.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.app.pojos.Employee;
+import com.app.service.EmployeeService;
+
+@Controller
+@RequestMapping("/employee")
+public class EmployeeController {
+
+@Autowired
+private EmployeeService eService;
+
+@RequestMapping("/empRegForm")
+public String displayEmpRegForm(Model map, Employee emp) {
+System.out.println("In displayEmpRegForm");
+return "/emp/empRegForm";
+}
+
+//http://localhost:8080/spring_boot/employee/addEmp
+@RequestMapping("/addEmp")
+public String addEmployee(Model map, Employee emp) {
+eService.addEmployee(emp);
+map.addAttribute("mesg", "Employee Added Successfully!! " + emp);
+return "redirect:/";
+}
+
+@RequestMapping("/dispAllEmps")
+public String displayAllEmployees(Model map) {
+List<Employee> empList = eService.getAllEmployees();
+map.addAttribute("empList", empList);
+System.out.println("In dispAllEmps in EmpController");
+return "/emp/dispAllEmps";
+}
+}

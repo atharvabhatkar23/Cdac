@@ -1,0 +1,40 @@
+
+Nov 17, 2023 14:52:55.713 NEW SESSION
+Nov 17, 2023 14:52:55.713 [13100:8684:1117/145255.712:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+
+Nov 20, 2023 16:04:19.429 NEW SESSION
+Nov 20, 2023 16:04:19.429 [1700:15508:1120/160419.428:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Nov 20, 2023 17:21:14.519 [1700:15508:1120/172114.518:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -106
+Nov 20, 2023 17:23:32.969 [1700:15508:1120/172332.968:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+
+Nov 21, 2023 17:50:51.195 NEW SESSION
+Nov 21, 2023 17:50:51.195 [15668:2132:1121/175051.190:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+
+Nov 21, 2023 21:38:12.464 NEW SESSION
+Nov 21, 2023 21:38:12.464 [8308:4176:1121/213812.461:ERROR:interface_endpoint_client.cc(702)] Message 5 rejected by interface blink.mojom.WidgetHost
+
+Nov 22, 2023 17:39:24.311 NEW SESSION
+Nov 22, 2023 17:39:24.311 [9688:15008:1122/173924.309:ERROR:web_contents_delegate.cc(246)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+Nov 22, 2023 17:39:24.311 [9688:15008:1122/173924.309:ERROR:web_contents_delegate.cc(246)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+Nov 22, 2023 17:39:33.245 [9688:15008:1122/173933.245:ERROR:web_contents_delegate.cc(246)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+Nov 22, 2023 17:39:33.246 [9688:15008:1122/173933.245:ERROR:web_contents_delegate.cc(246)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+Nov 22, 2023 17:40:48.307 [9688:15008:1122/174048.306:ERROR:web_contents_delegate.cc(246)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+Nov 22, 2023 17:40:48.307 [9688:15008:1122/174048.306:ERROR:web_contents_delegate.cc(246)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+Nov 22, 2023 17:42:33.617 [9688:15008:1122/174233.616:ERROR:web_contents_delegate.cc(246)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+Nov 22, 2023 17:42:33.618 [9688:15008:1122/174233.617:ERROR:web_contents_delegate.cc(246)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+Nov 22, 2023 17:42:48.907 [9688:15008:1122/174248.907:ERROR:web_contents_delegate.cc(246)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+Nov 22, 2023 17:42:48.908 [9688:15008:1122/174248.907:ERROR:web_contents_delegate.cc(246)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+Nov 22, 2023 17:42:57.217 [9688:15008:1122/174257.217:ERROR:web_contents_delegate.cc(246)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+Nov 22, 2023 17:42:57.218 [9688:15008:1122/174257.217:ERROR:web_contents_delegate.cc(246)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+Nov 22, 2023 17:44:59.974 [9688:15816:1122/174459.973:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+
+Nov 25, 2023 20:49:10.789 NEW SESSION
+Nov 25, 2023 20:49:10.790 [2352:8564:1125/204910.786:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+Nov 26, 2023 14:26:59.899 [2352:13840:1126/142659.899:ERROR:device_event_log_impl.cc(192)] [14:26:59.899] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Nov 26, 2023 14:32:53.24 [2352:13840:1126/143253.023:ERROR:device_event_log_impl.cc(192)] [14:32:53.024] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+
+Nov 27, 2023 15:37:27.465 NEW SESSION
+Nov 27, 2023 15:37:27.465 [16296:17732:1127/153727.464:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118
+
+Nov 28, 2023 19:25:52.674 NEW SESSION
+Nov 28, 2023 19:25:52.674 [1888:18072:1128/192552.673:ERROR:connection_factory_impl.cc(428)] Failed to connect to MCS endpoint with error -118

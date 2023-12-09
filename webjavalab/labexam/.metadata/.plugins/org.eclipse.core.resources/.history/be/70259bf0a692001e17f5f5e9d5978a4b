@@ -1,0 +1,13 @@
+package com.app.service;
+
+import com.app.entities.Student;
+
+public class StudentServiceImpl implements StudentService {
+
+	@Override
+	public Student addStudent(Student student) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
