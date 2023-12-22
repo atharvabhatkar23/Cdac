@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <script>
+
+        $(document).ready( function() {
+            $('#assign').click(function(){
+                console.log("adiufb")
+                $('input[type="text"]').on("focus",function(){
+
+                    $(this).css("background-color","aqua");
+
+                })
+
+
+                $('input[type="text"]').on("blur",function(){
+                    $(this).css("background-color","white");
+
+                })
+
+            })
+            $('#remove').click(function(){
+                $('input[type="text"]').off("focus")
+
+
+                $('input[type="text"]').off("blur")
+
+            })
+
+        });
+
+    </script>
+</head>
+<body>
+    <button type="button" name="btn" id="assign" >  Assign</button>
+    <button type="button" name="btn" id="remove" >  Remove</button>
+
+    Name: <input type="text" name="nm" id="nm">
+    Address: <input type="text" name="addr" id="addr">
+</body>
+</html>

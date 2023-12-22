@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .myclass{
+            background-color: aquamarine;
+            color:white;
+            font-size: 25px;
+        }
+        .myc{
+            background-color: white;
+            color:black;
+            font-size: 10px;
+        }
+
+    </style>
+    <script src="./scripts/jquery.js"></script>
+    <!-- <script>
+
+        $(document).ready(function(){
+            //assign focus event on all input text box
+            $(':input[type="text"]').focus(function(){
+                
+                $(this).css("background-color","yellow")
+            })
+            //assign blur event on all input text box
+            $(':input[type="text"]').blur(function(){
+                $(this).css("background-color","white")
+            })
+            //hover accept 2 functions , mouseover and mouseout
+            $('p').hover(function(){
+                console.log("in hover 1")
+                $(this).css({"background-color":"blue","color":"white"})
+            },function(){
+                console.log("in hover 2")
+                $(this).css({"background-color":"white","color":"black"})
+            })
+
+        })
+    </script> -->
+    <script> 
+
+        f1 = () =>{
+            document.getElementById("mydiv").innerHTML += "<br> <br> <br><br><br>aefb"
+        }
+
+        $(document).ready( ()=>{
+
+            // $('div').each(function (index){
+            //     alert(index+'='+$(this).text());
+            // });
+            $('p').hover( function() {
+                $(this).addClass("myclass");
+
+            }, function(){
+                $(this).removeClass("myclass");
+            }   )
+            $('#button').click(function(){ f1()   });
+
+            $('#new-button').click(function(){
+                $('.divClass'). css({"background-color":"yellow",
+               "color":"blue"});
+            })
+            $('#new-button2').click(function(){
+                $('.divClass'). css({"background-color":"white","color":"black"});
+            })
+
+            $(':input[type="text"]').focus(function(){
+                
+                $(this).css("background-color","yellow")
+            })
+            //assign blur event on all input text box
+            $(':input[type="text"]').blur(function(){
+                $(this).css("background-color","white")
+            })
+        }  )
+
+    </script>
+</head>
+<body>
+    <p>This is p</p>
+
+    <div class="divClass">
+            unsdfn
+            <br>
+            bweufb
+            <br>
+
+
+
+    </div>
+<br> <br> <br> <br><br> 
+    <span></span>
+    <div class="divClass">
+
+        unsdfn
+            <br>
+            bweufb
+            <br>
+    </div>
+    <form>
+        Name: <input type="text" name="nm" id="nm">
+        Mobile: <input type="text" name="mob" id="mob">
+        data: <input type="text" name="data" id="data">
+
+        <button type="button" id="button" onclick="f1()">iunuin</button>
+        
+
+        
+    </form>
+
+
+    <div id="mydiv">
+        <p>p2</p>
+    <p>o3</p>
+    <p>p4</p>
+    </div>
+
+    <button id="new-button" > Add color </button>
+    <button id="new-button2" > Remove color </button>
+
+</body>
+</html>

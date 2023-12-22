@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+function changeString(){
+
+    var str = document.getElementById("str").value;
+    var op = document.getElementById("op");
+    var pos = op.selectedIndex
+
+    var choice = op.options[pos].value;
+    // alert(choice);
+
+    switch(choice){
+        case "upper" : 
+           var result =  str.toUpperCase();
+        break;
+
+        case "lower" : 
+            var result = str.toLowerCase();
+        break;
+        case "replace" : 
+            //then string enclosed in /../ it is  a regex ,  g indicates global, i indicates ignore case
+            var result = str.replace(/asa/ig , 'bbb')
+        break;
+        case "split" : 
+            var del  = prompt("Enter Delimeter");
+            var result = str.split(del);
+
+        break;
+        case "slice" :
+            var s = prompt('enter');
+        // var s = Number(promt("Enter start"));
+        // var e = Number(promt("Enter end"));
+        var result = str.slice(2,7);
+
+        break;
+
+//index of vs search() in search we can give pattern in indexof only string
+    case "search" :
+        
+        var result = str.search('z');
+
+        break;
+
+    
+    case "match" :
+        
+        var result = str.match('z');
+
+        break;
+
+    }
+
+    document.getElementById("result").value = result;
+    document.getElementById("mydiv").innerHTML = result;
+
+}
+
+    </script>
+</head>
+<body>
+    
+
+    <form> 
+        Enter string : <input type = "text" name="str" id="str" ><br>
+
+        Result: <input type = "text" name="result" id="result" ><br> 
+
+        Operation : 
+        <select name="op" id="op" >  
+            <option value="upper">Upper</option>
+            <option value="lower">Lower</option>
+            <option value="replace">replace</option>
+            <option value="slice">Slice</option>
+            <option value="split">split</option>
+            <option value="splitmatch">splitmatch</option>
+            <option value="include">include</option>
+            <option value="match">match</option>
+            <option value="search">search</option>
+
+        </select>  
+        <button type="button" name="btn" id="btn" onclick="changeString()">String operation</button>
+
+
+    </form>
+<h1>
+    <div id = "mydiv">
+
+
+    </div>
+</h1>
+</body>
+</html>

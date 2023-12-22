@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    .myclass{
+            background-color: aquamarine;
+            color:white;
+            font-size: 25px;
+            display: block;
+        }
+        .myc{
+            display:none;
+        }
+    </style>
+    <script src = "jquery.js"></script>
+    <script >
+
+       $(document).ready( function(){
+        
+        $('#append').click( function(){
+
+            $('div').append("<p class='app'>  This is append fucntion </p>")
+
+        }  )
+//
+        $('#prepend').click(function(){
+            
+            $('div').prepend("<p class='pre'>  This is prepend fucntion </p>")
+
+
+        }  )
+//
+        $('#remove').click(function(){
+            $('p').remove(".app") //remove all p tags with app class
+            $('p').remove(".pre") //remove all p tags with app class
+        }  )
+
+
+
+       } )
+
+    </script>
+</head>
+<body>
+    
+    <button type="button" name="btn" value="btn" id="append">append para</button>
+    <button type="button" name="btn" value="btn" id="prepend">prepend</button>
+    <button type="button" name="btn" value="btn" id="remove">remove</button>
+    
+    <div>
+        <h1> This is h1</h1>
+    </div>
+    <!-- <h1 class="myclass">  Hi1 ekement</h1> -->
+</html>
