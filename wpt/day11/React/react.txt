@@ -1,0 +1,53 @@
+custom component tags - always capitalcase
+all html tags - small case
+--------------
+in app.js 
+enclose multiple lines inside a div
+// the return fn in class comp. or fn comp. can return only one tag so wrap all tags in a single div tag
+-------------------
+functional component : 
+--stateless
+--cannot use React lifecycle methods, but in new version we can use react hooks : eg useState,useEffect, useContext
+--can pass data via props 
+--lightweight
+--to store data in fn component useState hook can be used
+
+function App(){ return ( html ); }
+
+class component :   
+--stateful
+--can use React lifecycle methods eg: componentWillMount method
+--can pass data via props but data can be stored in state (props & state = predefined react objects)
+--not lightweight
+class App extends React.Component
+{ 
+    render(){
+
+        return(html);
+    }
+}
+
+
+-- React components return html like structure which is actually JSX (JS extension)
+-- compiled by babel
+-- JSX will be converted to js code by this babel compiler
+-- all html tags start with small case letter and user defined companents(tags) should start with capital case
+
+
+
+flow :  index.html <-- index.js (<App/>) <-- app.js
+
+-- create a folder component in src
+-- create files of components eg: Header.js
+-- import it in app.js and can use it in fn-comp/class-comp to as <Header/>
+-- no need to import it in curly braces if export default Header is mentioned in Header.js
+-- one component will have only 1 function
+-- if extra info is given to custom component in Appp.js (eg : <Header name="AB">) then it can be accesed in te component file by using "props" (props.name)
+-- in class components we can use state using constructor() and assign props values to state. 
+-- props is read only , state can modified
+-- to change values we can use state
+
+---------------------------------------------------------------------------------------------
+day12
+
+component communication

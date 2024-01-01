@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodeman": "^1.1.2",
+    "nodemon": "^3.0.2"
+  },
+  "name": "expressjsdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AB",
+  "license": "ISC",
+  "description": "this",
+  "repository": {
+    "type": "git",
+    "url": " "
+  }
+}
